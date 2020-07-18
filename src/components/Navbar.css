@@ -1,0 +1,19 @@
+.ui.secondary.menu{
+    color: black;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.ui.menu .item{
+    color: white;
+    
+}
+
+.ui.secondary.menu .active.item{
+    color: dodgerblue;
+}
+
+.items{
+    color: dodgerblue;
+}

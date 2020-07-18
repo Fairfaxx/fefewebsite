@@ -1,0 +1,15 @@
+.ui.header{
+    color: white;
+}
+
+.h1{
+    font-size: 15.5vw !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+    
+}
+
+.h1F {
+    text-align: right !important;
+    /* width: 200px; */
+}
