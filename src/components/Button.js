@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const Button = () => {
-    return  <button input id="submit" type="submit" class="ui inverted teal button">ENVIAR</button>
+const Button = (props) => {
+    return  <button input id="submit" type="submit" class="ui inverted purple button">ENVIAR</button>
 };
 
 

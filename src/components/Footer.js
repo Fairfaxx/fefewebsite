@@ -3,9 +3,6 @@ import Button from './Button';
 import './Footer.css';
 
 
-
-
-
 const Footer = (props) => {
     return(
         <div>
@@ -31,7 +28,9 @@ const Footer = (props) => {
                     <label for="subject">Subject</label>
                         <textarea id="subject" name="subject" placeholder="Write your doubts or needs.." style={{height: "200px"}}></textarea>
                     <div class="ui inverted segment">
-                        <Button/>
+                    <input id="submit" type="submit" value={props.value} class="ui inverted purple button"/>
+                     
+                    {/* <Button/> */}
                     </div>
 
                       </form>
